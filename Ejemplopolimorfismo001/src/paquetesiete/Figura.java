@@ -9,6 +9,24 @@ package paquetesiete;
  *
  * @author reroes
  */
-public class Figura {
+public abstract class Figura {
+    protected double area;
+    protected String caracteris;
+
+    public double obtenerArea() {
+        return area;
+    }
+
+    public String obtenerCaracteris() {
+        return caracteris;
+    }
+
+    public void establecerCaracteris(String caracteris) {
+        this.caracteris = caracteris;
+    }
+    
+    public abstract void calcular_area();
+
+  
     
 }

@@ -13,6 +13,10 @@ public class EstudianteDistancia extends Estudiante {
     
     int numeroAsignaturas;
     double costoAsignatura;
+
+    public EstudianteDistancia(String nombre, String apellido) {
+        super(nombre, apellido);
+    }
     
     //  Métodos establecer y calcular para los datos o atributos de la clase
     

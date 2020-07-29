@@ -12,7 +12,11 @@ public class EstudiantePresencial extends Estudiante{
         */
     int numeroCreditos;
     double costoCredito;
-   
+
+    public EstudiantePresencial(String nom, String ap, String id, int eda) {
+        super(nom, ap, id, eda);
+    }
+
     //  Métodos establecer y calcular para los datos o atributos de la clase
     // 2.  Método establecerNumeroCreditos(numero: Real)
     public void establecerNumeroCreditos(int numero){

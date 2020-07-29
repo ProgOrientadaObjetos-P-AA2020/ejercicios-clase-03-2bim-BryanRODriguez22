@@ -23,6 +23,14 @@ public abstract class Estudiante {
     protected int edadEstudiante;
     protected double matricula;
     
+    public Estudiante(String nom, String ap, String id, int eda){
+        nombresEstudiante = nom;
+        apellidosEstudiante=ap;
+        identificacionEstudiante= id;
+        edadEstudiante= eda;
+    
+    }
+    
     // Método establecerNombresEstudiante(nom: Cadena)
     public void establecerNombresEstudiante(String nom){
         nombresEstudiante = nom;

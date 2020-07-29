@@ -52,7 +52,8 @@ public class EjecutaEstudiante {
             if (tipoEstudiante == 1) {
 
                 // Declarar,crear e iniciar objeto tipo EstudiantePresencial
-                EstudiantePresencial estudianteP = new EstudiantePresencial();
+                EstudiantePresencial estudianteP = new EstudiantePresencial
+                (nombresEst,apellidosEst,identificacionEst,edadEst);
                 // Solicitar ingreso de valores para variables 
                 // Solicitar numeroCreds, costoCred
                 // Leer numeroCreds, costoCred
@@ -78,7 +79,8 @@ public class EjecutaEstudiante {
                 // crear un objeto de tipo EstudianteDistancia
                 
                     // Declarar,crear e iniciar objeto tipo EstudianteDistancia
-                    EstudianteDistancia estudianteD = new EstudianteDistancia();
+                    EstudianteDistancia estudianteD = new EstudianteDistancia
+                    (nombresEst,apellidosEst,identificacionEst,edadEst);
                     // Solicitar ingreso de valores para variables 
                     // Solicitar numeroAsigs, costoAsig 
                     // Leer numeroAsigs, costoAsig
